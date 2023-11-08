@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.list {
+    margin: 40px;
+    padding: 10px ;
+}
+
+.post {
+    width: 500px;
+    height: auto;
+    background-color:  rgb(53, 52, 55);
+    display: block;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
+    animation: post linear 5s infinite;
+    transition: 0.5s;
+}
+.post:hover  {
+    
+    transform: scale(102%);
+    box-shadow: 0px 0px 15px 3px rgb(120, 36, 146);
+    transition: 0.5s;
+}
+
+
+
+
+.title {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: left;
+    text-shadow: 0px 1px 1px rgb(127, 32, 156) ;
+    border-bottom: 2px solid rgb(127, 32, 156);
+    transition: 0.5s;
+    
+}
+
+
+
+
+.story {
+    color: aliceblue;
+    font-size: 1.3rem;
+    padding: 5px;
+    margin: 10px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.author {
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.date {
+    text-align: right;
+    margin-right: 5px;
+    padding: 10px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+
+}
